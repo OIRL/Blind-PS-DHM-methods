@@ -1,9 +1,11 @@
 ## Blind-PS-DHM-methods
 ### Fast, automatic and accurate methods 
 
-Digital holographic microscopy (DHM) is an optical interferometric system that records the interference pattern, named hologram. The angle between the reference and object waves entails the possibility to operate under three different architectures: in-line, slightly off-axis, or off-axis. In slightly off-axis and in-line DHM systems, the three diffraction orders that compose the hologram spectrum are overlapped, hence phase-shifting techniques are need to recover the complex object information, imposing the need of multiple hologram recording. Conventional phase-shifting DHM (PS-DHM) methods require the accurate knowledge of the phase shifts between the recorded the holograms. However, experimentally such accuracy is frequently arduous, leading to the use of inexact values of the phase shift which produce distorted and unreliable phase map. Our implementations under blind phase-shifting algorithms do not need the accurate knowledge of said the phase shifts. 
+Phase Shifting Digital holographic microscopy (PS-DHM) is an optical interferometric system that records several interference pattern, named holograms, when the three diffraction orders that compose the hologram spectrum overlapping between them as is the caseses of architectures as: in-line and slightly off-axis. The overlapping between the diffraction orders require the accurate knowledge of the phase shifts between the recorded the holograms. However, experimentally such accuracy is frequently arduous, leading to the use of inexact values of the phase shift which produce distorted and unreliable phase map. 
 
-We present two blind-iterative phase-shifting algorithms for accurate quantitative phase images in PS-DHM. The proposed methods are based on the demodulation of the spectral components of the recorded holograms and operate with at most three phase-shifted holograms. The hallmarks of our methods are accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems.
+
+We present two blind-iterative phase-shifting algorithms (Not need the accurate knowledge of the phase shifts.) for accurate quantitative phase images in PS-DHM Three raw hologrmas and Two raw holograms.  The proposed methods are based on the demodulation of the spectral components of the recorded holograms and operate with at most three phase-shifted holograms. The hallmarks of our methods are accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems.
+
 
 
 ### Citation
