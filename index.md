@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+### Citation
+If using two blind with three raws PS-DHM for publication, please kindly cite the following:
 
-You can use the [editor on GitHub](https://github.com/OIRL/Blind-PS-DHM-methods/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ C. Buitrago, A. Robinson, J. Garcia-Sucerquia and A. Doblas, “Phase-shifting digital holographic microscopy with an iterative blind reconstruction algorithm,” Appl. Opt. 58, 34, p.p G311–G317 (2019)[Article](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-58-34-G311).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If using two blind with two raws PS-DHM for publication, please kindly cite the following:
 
-### Markdown
+R. Castaneda, C. Buitrago, J. Garcia-Sucerquia and A. Doblas, “Fast-iterative blind phase-shifting digital holographic microscopy using two images,” Appl. Opt. 59, 24, p.p 7469–7476 (2020)[Article](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-59-24-7469).  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OIRL/Blind-PS-DHM-methods/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+| Researcher  | email | Google Scholar | ResearchGate |
+| ------------- | ------------- |-------------| -------------|
+| Raul Castaneda | *rcstdq@memphis.edu* | [RaulGoogle](https://scholar.google.com/citations?user=RBtkL1oAAAAJ&hl=en) | [RaulResearch](https://www.researchgate.net/profile/Raul_Castaneda_Quintero)
+| Ana Doblas| *adoblas@memphis.edu* | [AnaGoogle](https://scholar.google.es/citations?user=PvvDEMYAAAAJ&hl=en) | [AnaResearch](https://www.researchgate.net/profile/Ana_Doblas2) |
+
+The main research of Blind PD-DHM project is Ana Doblas 
