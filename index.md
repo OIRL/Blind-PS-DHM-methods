@@ -1,9 +1,17 @@
+## Blind-PS-DHM-methods
+### Fast, automatic and accurate methods 
+
+Digital holographic microscopy (DHM) is an optical interferometric system that records the interference pattern, named hologram. The angle between the reference and object waves entails the possibility to operate under three different architectures: in-line, slightly off-axis, or off-axis. In slightly off-axis and in-line DHM systems, the three diffraction orders that compose the hologram spectrum are overlapped, hence phase-shifting techniques are need to recover the complex object information, imposing the need of multiple hologram recording. Conventional phase-shifting DHM (PS-DHM) methods require the accurate knowledge of the phase shifts between the recorded the holograms. However, experimentally such accuracy is frequently arduous, leading to the use of inexact values of the phase shift which produce distorted and unreliable phase map. Our implementations under blind phase-shifting algorithms do not need the accurate knowledge of said the phase shifts. 
+
+We present two blind-iterative phase-shifting algorithms for accurate quantitative phase images in PS-DHM. The proposed methods are based on the demodulation of the spectral components of the recorded holograms and operate with at most three phase-shifted holograms. The hallmarks of our methods are accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems.
+
+
 ### Citation
-If using two blind with three raws PS-DHM for publication, please kindly cite the following:
+* If using two blind with three raws PS-DHM for publication, please kindly cite the following:
 
  C. Buitrago, A. Robinson, J. Garcia-Sucerquia and A. Doblas, “Phase-shifting digital holographic microscopy with an iterative blind reconstruction algorithm,” Appl. Opt. 58, 34, p.p G311–G317 (2019)[Article](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-58-34-G311).
 
-If using two blind with two raws PS-DHM for publication, please kindly cite the following:
+* If using two blind with two raws PS-DHM for publication, please kindly cite the following:
 
 R. Castaneda, C. Buitrago, J. Garcia-Sucerquia and A. Doblas, “Fast-iterative blind phase-shifting digital holographic microscopy using two images,” Appl. Opt. 59, 24, p.p 7469–7476 (2020)[Article](https://www.osapublishing.org/ao/abstract.cfm?uri=ao-59-24-7469).  
 
