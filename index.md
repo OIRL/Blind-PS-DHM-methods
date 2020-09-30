@@ -12,6 +12,9 @@ We present two blind-iterative phase-shifting algorithms (Not need the accurate 
 
 
 ### Blind two raw hologrmas
+
+This method uses two raw holograms with arbitrary phase-shift. The main advantage of the proposed method is the reduction in both the acquisition and computation time. The implementation for two hologrmas reduce the adquisition an computational time 33% compared with the standar three-frame PS algorithms. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime without overlapping of the spectrum of the ±1 terms.
+
 <img src="images/twoRawHolograms.png" alt="hi" class="inline"/>
 
 
