@@ -1,22 +1,19 @@
 ## Blind-PS-DHM-methods
 ### Fast, automatic and accurate methods 
 
-Phase Shifting Digital holographic microscopy (PS-DHM) is an optical interferometric system that records several interference pattern, named holograms, when the three diffraction orders that compose the hologram spectrum overlapping between them as is the caseses of architectures as: in-line and slightly off-axis. The overlapping between the diffraction orders require the accurate knowledge of the phase shifts between the recorded the holograms. However, experimentally such accuracy is frequently arduous, leading to the use of inexact values of the phase shift which produce distorted and unreliable phase map. 
+We present two blind-iterative phase-shifting algorithms in which there is no need of prior knowledge of the phase shifts between the raw holograms. These two approaches provide accurate quantitative phase images in Phase-Shifting Digital Holographic Microscopy (PS-DHM) using  three or two raw holograms. The proposed methods are based on the demodulation of the spectral components of the recorded holograms. The hallmarks of our methods are blindness (no prior knowledge of any phase shift), accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems
 
 
-We present two blind-iterative phase-shifting algorithms (Not need the accurate knowledge of the phase shifts.) for accurate quantitative phase images in PS-DHM: Blind three raw hologrmas and Blind two raw holograms.  The proposed methods are based on the demodulation of the spectral components of the recorded holograms and operate with at most three phase-shifted holograms. The hallmarks of our methods are accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems.
+### Blind three raw holograms
 
-
-### Blind three raw hologrmas
-
-This method uses three raw holograms with arbitrary phase-shift. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime. Thus, the angle between the reference and the object waves cannot be equal to zero but the Fourier components can be partially overlapped. 
+This method uses three raw holograms with arbitrary phase-shift. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime with an overlay between the different spectral orders up to 80%. Thus, the Fourier components of the real and virtual images (e.g., +1 and -1 terms) can be partially overlapped. 
 
 <img src="images/trheeRawHolograms.png" alt="hi" class="inline"/> 
 
 
-### Blind two raw hologrmas
+### Blind two raw holograms
 
-This method uses two raw holograms with arbitrary phase-shift. The main advantage of the proposed method is the reduction in both the acquisition and computation time. The implementation for two hologrmas reduce the adquisition an computational time 33% compared with the standar three-frame PS algorithms. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime without overlapping of the spectrum of the ±1 terms.
+This method uses two raw holograms with arbitrary phase-shift. Since in this implementation we only uses two holograms, there is a 33% reduction  in both the acquisition and computational time  compared with the previous blind three-frame PS-DHM algorithms. The advantage of the reduced acquisition and processing times leads to a PS-DHM system more suitable for dynamic imaging. However, the requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime without overlapping of the spectra of the ±1 terms.
 
 <img src="images/twoRawHolograms.png" alt="hi" class="inline"/>
 
