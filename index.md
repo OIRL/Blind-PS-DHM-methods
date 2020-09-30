@@ -8,6 +8,9 @@ We present two blind-iterative phase-shifting algorithms (Not need the accurate 
 
 
 ### Blind three raw hologrmas
+
+This method uses three raw holograms with arbitrary phase-shift. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime. Thus, the angle between the reference and the object waves cannot be equal to zero but the Fourier components can be partially overlapped. 
+
 <img src="images/trheeRawHolograms.png" alt="hi" class="inline"/> 
 
 
