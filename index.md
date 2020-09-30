@@ -7,7 +7,13 @@ Phase Shifting Digital holographic microscopy (PS-DHM) is an optical interferome
 We present two blind-iterative phase-shifting algorithms (Not need the accurate knowledge of the phase shifts.) for accurate quantitative phase images in PS-DHM: Blind three raw hologrmas and Blind two raw holograms.  The proposed methods are based on the demodulation of the spectral components of the recorded holograms and operate with at most three phase-shifted holograms. The hallmarks of our methods are accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems.
 
 
+### Blind three raw hologrmas
 <img src="images/trheeRawHolograms.png" alt="hi" class="inline"/> 
+
+
+### Blind two raw hologrmas
+<img src="images/twoRawHolograms.png" alt="hi" class="inline"/>
+
 
 
 ### Citation
