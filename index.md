@@ -1,12 +1,12 @@
 ## Blind-PS-DHM-methods
 ### Fast, automatic and accurate methods 
 
-We present two blind-iterative phase-shifting algorithms in which there is no need of prior knowledge of the phase shifts between the raw holograms. These two approaches provide accurate quantitative phase images in Phase-Shifting Digital Holographic Microscopy (PS-DHM) using  three or two raw holograms. The proposed methods are based on the demodulation of the spectral components of the recorded holograms. The hallmarks of our methods are blindness (no prior knowledge of any phase shift), accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems
+We present two blind-iterative phase-shifting algorithms in which there is no need for prior knowledge of the phase shifts between the raw holograms. These two approaches provide accurate quantitative phase images in Phase-Shifting Digital Holographic Microscopy (PS-DHM) using three or two raw holograms. The proposed methods are based on the demodulation of the spectral components of the recorded holograms. The hallmarks of our methods are blindness (no prior knowledge of any phase shift), accuracy, and reduced acquisition and processing times leading to a PS-DHM system more suitable for dynamic imaging, as is the case of live cell imaging and colloidal systems
 
 
 ### Blind three raw holograms
 
-This method uses three raw holograms with arbitrary phase-shift. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime with an overlay between the different spectral orders up to 80%. Thus, the Fourier components of the real and virtual images (e.g., +1 and -1 terms) can be partially overlapped. 
+This method uses three raw holograms with arbitrary phase-shift. The only requirement of this approach is that the PS-DHM system should operate in a slightly off-axis regime with an overlay between the different spectral orders up to 80%. Thus, the Fourier components of the real and virtual images (e.g., +1 and -1 terms) can be partially overlapped. 
 
 <p align="center">
  <img src="images/trheeRawHolograms.png" alt="hi" class="inline" width="848" height="400"/> 
@@ -14,7 +14,7 @@ This method uses three raw holograms with arbitrary phase-shift. The only requir
 
 ### Blind two raw holograms
 
-This method uses two raw holograms with arbitrary phase-shift. Since in this implementation we only uses two holograms, there is a 33% reduction  in both the acquisition and computational time  compared with the previous blind three-frame PS-DHM algorithms. The advantage of the reduced acquisition and processing times leads to a PS-DHM system more suitable for dynamic imaging. However, the requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime without overlapping of the spectra of the ±1 terms.
+This method uses two raw holograms with arbitrary phase-shift. Since in this implementation we only use two holograms, there is a 33% reduction in both the acquisition and computational time compared with the previous blind three-frame PS-DHM algorithms. The advantage of the reduced acquisition and processing times leads to a PS-DHM system more suitable for dynamic imaging. However, the requirement of this approach is that the PS-DHM system should operate in a slightly off-axis regime without overlapping the spectra of the ±1 terms.
 
 <p align="center">
  <img src="images/twoRawHolograms.png" alt="hi" class="inline" width="684" height="400"/>
@@ -32,7 +32,8 @@ The matlab version for both approaches contains seven function. The main script 
 % ------------------------------Specifications---------------------------------% 
 % Input:                                                                       %
 %     holo_1 = Recorded slight Off-axis Hologram 1                             %
-%     holo_1 = Recorded slight Off-axis Hologram 2 (phase-shift respect holo_1)%
+%     holo_2 = Recorded slight Off-axis Hologram 2 (phase-shift)               %
+%     holo_3 = Recorded slight Off-axis Hologram 3 (phase-shift)               %
 %     lambda = wavelength                                                      % 
 %     pixel size = dxy                                                         %
 %                                                                              %
