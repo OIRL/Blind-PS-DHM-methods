@@ -20,10 +20,11 @@ This method uses two raw holograms with arbitrary phase-shift. Since in this imp
 </p>
 
 ### MATLAB script 
-Both approaches 
-<div class="text-blue mb-2"> 
-Blind three raw holograms 
-</div>  and Blind two raw holograms are implemented in scripts for Python and MATLAB. If you are interested in obtaining them, please get in touch more info in Support or Contact
+Both approaches Blind three raw holograms and Blind two raw holograms are implemented in scripts for Python and MATLAB. If you are interested in obtaining them, please get in touch more info in Support or Contact
+
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
 
 ### Citation
 * If using blind three raws holograms algorithm for publication, please kindly cite the following:
