@@ -24,10 +24,10 @@ This method uses two raw holograms with arbitrary phase-shift. Since in this imp
 Both approaches **Blind three raw holograms** and **Blind two raw holograms** are implemented in scripts for Python and MATLAB. If you are interested in obtaining them, please get in touch, more info in Support or Contact
 
 ### Python Script 
-
+The python version consist in one script called **PSDHBLind.py** 
 
 ### MATLAB Script 
-The matlab version for both approaches contains seven function. The main script are called **Blind_trhee_PS_DHM** and **Blind_two_PS_DHM.m**, for both approaches blind three and two raw holograms, respectively. Inside each main script you can find an explination for working with the methods.   
+The matlab version for both approaches contains seven function. The main script are called **Blind_trhee_PS_DHM.m** and **Blind_two_PS_DHM.m**, for both approaches blind three and two raw holograms, respectively. Inside each main script you can find an explination for working with the methods.   
 ```markdown
 % ------------------------------Specifications---------------------------------% 
 % Input:                                                                       %
