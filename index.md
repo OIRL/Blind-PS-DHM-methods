@@ -8,7 +8,7 @@ We present two blind-iterative phase-shifting algorithms in which there is no ne
 
 This method uses three raw holograms with arbitrary phase-shift. The only requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime with an overlay between the different spectral orders up to 80%. Thus, the Fourier components of the real and virtual images (e.g., +1 and -1 terms) can be partially overlapped. 
 
-<img src="images/trheeRawHolograms.png" alt="hi" class="inline" width="442" height="221"/> 
+<img src="images/trheeRawHolograms.png" alt="hi" class="inline" width="848" height="400"/> 
 
 
 ### Blind two raw holograms
