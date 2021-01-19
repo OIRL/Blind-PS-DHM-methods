@@ -27,7 +27,7 @@ Both approaches **Blind three raw holograms** and **Blind two raw holograms** ar
 
 
 ### MATLAB Script 
-The matlab version for both approaches contains seven function. The main script are called **Blind_trhee_PS_DHM** and **Blind_two_PS_DHM.m**, for both approaches blind three and two raw hologrmas, respectively. Inside each main script you can find a explination for working with the methods.   
+The matlab version for both approaches contains seven function. The main script are called **Blind_trhee_PS_DHM** and **Blind_two_PS_DHM.m**, for both approaches blind three and two raw holograms, respectively. Inside each main script you can find an explination for working with the methods.   
 ```markdown
 % ------------------------------Specifications---------------------------------% 
 % Input:                                                                       %
