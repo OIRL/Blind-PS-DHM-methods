@@ -17,7 +17,7 @@ This method uses three raw holograms with arbitrary phase-shift. The only requir
 This method uses two raw holograms with arbitrary phase-shift. Since in this implementation we only uses two holograms, there is a 33% reduction  in both the acquisition and computational time  compared with the previous blind three-frame PS-DHM algorithms. The advantage of the reduced acquisition and processing times leads to a PS-DHM system more suitable for dynamic imaging. However, the requirement of this approach is that the PS-DHM system should operate in slightly off-axis regime without overlapping of the spectra of the ±1 terms.
 
 <p align="center">
- <img src="images/twoRawHolograms.png" alt="hi" class="inline"/>
+ <img src="images/twoRawHolograms.png" alt="hi" class="inline" width="684" height="400"/>
 </p>
 
 ### Script 
