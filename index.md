@@ -37,4 +37,4 @@ R. Castaneda, C. Buitrago, J. Garcia-Sucerquia and A. Doblas, “Fast-iterative 
 | Raul Castaneda | *rcstdq@memphis.edu* | [RaulGoogle](https://scholar.google.com/citations?user=RBtkL1oAAAAJ&hl=en) | [RaulResearch](https://www.researchgate.net/profile/Raul_Castaneda_Quintero)
 | Ana Doblas| *adoblas@memphis.edu* | [AnaGoogle](https://scholar.google.es/citations?user=PvvDEMYAAAAJ&hl=en) | [AnaResearch](https://www.researchgate.net/profile/Ana_Doblas2) |
 
-The main research of Blind PD-DHM project is Ana Doblas 
+The main researcher of Blind PD-DHM project is Ana Doblas 
