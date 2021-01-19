@@ -27,12 +27,28 @@ Both approaches **Blind three raw holograms** and **Blind two raw holograms** ar
 
 
 ### MATLAB Script 
+The matlab version for both approaches contains seven function. The main script are called **Blind_trhee_PS_DHM** and **Blind_two_PS_DHM.m**, for both approaches blind three and two raw hologrmas, respectively. Inside each main script you can find a explination for working with the methods.   
 ```markdown
-# import library
-import HMM_UofM
-
-# call de function HHM_UofM.HMM
-HMM_UofM.HMM(sample, max_kernel_size, figures='True', plots_true='True', save_images='True')
+% ------------------------------Specifications---------------------------------% 
+% Input:                                                                       %
+%     holo_1 = Recorded slight Off-axis Hologram 1                             %
+%     holo_1 = Recorded slight Off-axis Hologram 2 (phase-shift respect holo_1)%
+%     lambda = wavelength                                                      % 
+%     pixel size = dxy                                                         %
+%                                                                              %
+% Output: phase = Reconstructed Amplitude and Phase Image                      %
+%                                                                              %
+% Functions: The algorith implement a set of functions                         %
+%   - holos_read                                                               %
+%   - holos_ft_peaks_positions                                                 %
+%   - cost_function_2RawImg                                                    %
+%   - holo_filter                                                              %
+%   - reference_wave                                                           % 
+%   - cost_function                                                            %
+%   - phase_reconstruction                                                     %
+%   - unwrap_phase                                                             %
+%                                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
 
 ### Citation
