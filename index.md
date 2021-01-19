@@ -20,8 +20,6 @@ This method uses two raw holograms with arbitrary phase-shift. Since in this imp
 </p>
 
 
-
-
 ### Citation
 * If using blind three raws holograms algorithm for publication, please kindly cite the following:
 
