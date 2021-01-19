@@ -52,6 +52,18 @@ The matlab version for both approaches contains seven function. The main script 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
 
+### Funding
+This project has received funding from the University of Memphis
+
+### Credits
+* **Blind three raw holograms** and **Blind two raw holograms** were developed in MATLAB (2020). version 7.10.0 (R2020a). Natick, Massachusetts: The MathWorks Inc.
+
+* For the unwrapping step implements the code developed by *M.A. Herraez et.al.* 
+
+M. A. Herraez, D. R. Burton, M. J. Lalor, and M. A. Gdeisat, "Fast two-dimensional phase-unwrapping algorithm based on sorting by reliability following a noncontinuous path", Applied Optics, Vol. 41, Issue 35, pp. 7437-7444 (2002).  
+
+M. F. Kasim, "Fast 2D phase unwrapping implementation in MATLAB" [unwrapping](https://github.com/mfkasim91/unwrap_phase/). 
+
 ### Citation
 * If using blind three raws holograms algorithm for publication, please kindly cite the following:
 
