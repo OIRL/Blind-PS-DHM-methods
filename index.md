@@ -21,13 +21,19 @@ This method uses two raw holograms with arbitrary phase-shift. Since in this imp
 </p>
 
 ### Script 
-Both approaches **Blind three raw holograms** and **Blind two raw holograms** are implemented in scripts for Python and MATLAB. If you are interested in obtaining them, please get in touch more info in Support or Contact
+Both approaches **Blind three raw holograms** and **Blind two raw holograms** are implemented in scripts for Python and MATLAB. If you are interested in obtaining them, please get in touch, more info in Support or Contact
 
 ### Python Script 
 
 
 ### MATLAB Script 
+```markdown
+# import library
+import HMM_UofM
 
+# call de function HHM_UofM.HMM
+HMM_UofM.HMM(sample, max_kernel_size, figures='True', plots_true='True', save_images='True')
+```
 
 ### Citation
 * If using blind three raws holograms algorithm for publication, please kindly cite the following:
