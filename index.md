@@ -24,7 +24,26 @@ This method uses two raw holograms with arbitrary phase-shift. Since in this imp
 Both approaches **Blind three raw holograms** and **Blind two raw holograms** are implemented in scripts for Python and MATLAB. If you are interested in obtaining them, please get in touch, more info in Support or Contact
 
 ### Python Script 
-The python version consist in one script called **PSDHBLind.py** 
+The python version consist in one script called **PSDHBlind.py**. The function contains the next parameters:
+- hologram1: Recorded slight Off-axis Hologram 1 
+- hologram2: Recorded slight Off-axis Hologram 2 (phase-shift)
+- hologram3: Recorded slight Off-axis Hologram 3 (just for Blind three)
+- lambda: Wavelenght [nm]
+- deltaX: Pixel size x [um]
+- deltaY: Pixel size y [um]
+
+Below an example of how to operate with PSDHBlind
+```markdown
+# import library
+import PSDHBlind
+
+# call the function PSDHBlind.raw3
+phase3 = PSDHBlind.raw3(hologram1, hologram2, hologram3, lambda, deltaX, deltaY)
+
+# call the function PSDHBlind.raw2
+phase2 = PSDHBlind.raw2(hologram1, hologram2, lambda, deltaX, deltaY)
+```
+
 
 ### MATLAB Script 
 The matlab version for both approaches contains seven function. The main script are called **Blind_trhee_PS_DHM.m** and **Blind_two_PS_DHM.m**, for both approaches blind three and two raw holograms, respectively. Inside each main script you can find an explination for working with the methods.   
@@ -33,9 +52,9 @@ The matlab version for both approaches contains seven function. The main script 
 % Input:                                                                       %
 %     holo_1 = Recorded slight Off-axis Hologram 1                             %
 %     holo_2 = Recorded slight Off-axis Hologram 2 (phase-shift)               %
-%     holo_3 = Recorded slight Off-axis Hologram 3 (phase-shift)               %
-%     lambda = wavelength                                                      % 
-%     pixel size = dxy                                                         %
+%     holo_3 = Recorded slight Off-axis Hologram 3 (just for Blind three)      %
+%     lambda = Wavelength [nm]                                                 % 
+%     pixel size = Dimension of the pixel size [um]                            %
 %                                                                              %
 % Output: phase = Reconstructed Amplitude and Phase Image                      %
 %                                                                              %
